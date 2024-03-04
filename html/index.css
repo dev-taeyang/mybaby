@@ -1,0 +1,270 @@
+/* join Css */
+@charset "UTF-8";
+
+.join-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    margin: 0px auto;
+    max-width: 808px;
+    width: 100%;
+    padding: 0px;
+    min-height: 653px;
+}
+
+.join-wrap {
+    margin-top: 20px;
+}
+
+.join-title {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 50px;
+    position: relative;
+}
+
+.join-title h3 {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.54px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.join-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto 60px;
+    padding: 24px 20px;
+}
+
+.join-id, .join-birth, .join-name, .join-nickname {
+    width: 100%;
+    padding: 14px 14px 12px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(238, 238, 238);
+    margin: 4px 0px 8px;
+}
+
+.join-password {
+    width: 100%;
+    padding: 14px 14px 12px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(238, 238, 238);
+    margin: 4px 0px 8px;
+}
+
+.join-password-p {
+    margin-bottom: 6px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.36px;
+    color: rgb(170, 170, 170);
+}
+
+.join-phone-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-phone {
+    width: 100%;
+    padding: 14px 14px 12px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(238, 238, 238);
+    margin: 4px 0px 8px;
+}
+
+.join-phone-btn:disabled {
+    cursor: not-allowed;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #80808042;
+    color: rgb(170, 170, 170);
+}
+
+.join-phone-btn {
+    width: 130px;
+    height: 50px;
+    line-height: 20px;
+    padding: 0px 13px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #05AE68;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #05AE68;
+    font-size: 14px;
+    margin: 4px 0px 8px;
+}
+
+.join-check-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-check {
+    width: 100%;
+    padding: 14px 14px 12px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(238, 238, 238);
+    margin: 4px 0px 8px;
+}
+
+.join-check-btn:disabled {
+    cursor: not-allowed;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #80808042;
+    color: rgb(170, 170, 170);
+}
+
+.join-check-btn {
+    width: 130px;
+    height: 50px;
+    line-height: 20px;
+    padding: 0px 13px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #05AE68;
+    border-radius: 8px;
+    color: #05AE68;
+    font-size: 14px;
+    margin: 4px 0px 8px;
+}
+
+.genderText {
+	border-width: 0px;
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.125rem;
+    left: 14px;
+    position: absolute;
+    top: 18px;
+}
+
+.womanText, .manText {
+	border-width: 0px;
+    color: rgb(58, 58, 58);
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.genderCheckbox {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 1px;
+}
+
+img[src="../image/check_all.png"] {
+    filter: opacity(0.5) drop-shadow(0 0 0  #05AE68);
+}
+
+.genderCheckImg {
+    display: flex;
+}
+
+input[type="radio"] {
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.checkWrap {
+	display: flex;
+    justify-content: center;
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 4px;
+}
+
+.checkLabel {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.checkLabelMargin {
+	width: 80px;
+	display: inline-block;
+}
+
+.pText {
+	display: flex;
+	border-width: 0px;
+    margin-left: 8px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.join-btn:disabled {
+    background-color: #00800082;
+    cursor: not-allowed;
+}
+
+.join-btn {
+    width: 100%;
+    height: 56px;
+    line-height: 24px;
+    padding: 16px;
+    background-color: #05AE68;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(244, 244, 244);
+    font-size: 16px;
+    margin: 33px 0px 0px;
+    border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+    border: 1px solid #05AE68;
+}
+
+.help {
+    font-size: 12px;
+}

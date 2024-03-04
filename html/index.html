@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mybaby</title>
+    <link rel="stylesheet" href="/index.css" />
 </head>
 <body>
     <section id="member-join">
@@ -118,19 +119,20 @@
                 <input type="text" name="memberBirth" placeholder="생일" class="join-birth" />
                 <p class="help"></p>
               </div>
+              <!-- 성별 -->
                 <div class="checkWrap">
                     <legend class="genderText">성별</legend>
                     <label class="checkLabel"> <input type="radio"
                       name="memberGender" value="남" class="manCheck"
                       > <span class="genderCheckbox">
-                        <img src="/images/check.png" width="15px" class="genderCheckImg">
+                        <img src="../image/check.png" width="15px" class="genderCheckImg">
                     </span>
                       <p class="pText">남자</p>
                     </label>
                     <div class="checkLabelMargin"></div>
                     <label class="checkLabel"> <input type="radio"
                       name="memberGender" value="여" class="womanCheck">
-                      <span class="genderCheckbox"> <img src="/images/check.png"
+                      <span class="genderCheckbox"> <img src="../image/check.png"
                         width="15px" class="genderCheckImg">
                     </span>
                       <p class="pText">여자</p>
@@ -143,4 +145,6 @@
         </div>
       </section>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="/index.js"></script>
 </html>
