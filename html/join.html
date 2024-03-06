@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원가입</title>
-    <link rel="stylesheet" href="/join.css" />
     <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/join.css" />
   </head>
   <body>
     <!-- 전체 섹션 -->
@@ -84,6 +84,7 @@
                 class="email_real_input"
               />
             </div>
+            <!-- 휴대폰 번호 입력 -->
             <div class="join_email">
               <div class="email_input">
                 <div class="email_write">
@@ -277,11 +278,57 @@
                     </span>
                   </div>
                 </div>
-                <div></div>
-                <div></div>
+                <div class="number_insert">
+                  <input
+                    type="number"
+                    pattern="[0-9]*"
+                    placeholder="(예시) 01011112222"
+                    name="userPhone"
+                    autocomplete="on"
+                    class="number_input"
+                  />
+                  <button class="number_btn" type="button" disabled>
+                    <span class="number_btn_check">인증번호 받기</span>
+                  </button>
+                </div>
+                <div class="number_check_area">
+                  <input
+                    type="number"
+                    pattern="[0-9]*"
+                    placeholder="인증번호를 입력해주세요."
+                    name="authCode"
+                    readonly
+                    autocomplete="on"
+                    class="number_check"
+                  />
+                </div>
               </div>
             </div>
-            <div></div>
+            <div class="join_email">
+              <div class="email_write">
+                <label for="userPhone" class="email_label">비밀번호</label>
+              </div>
+              <div class="join_email">
+                <input
+                  class="email_real_input"
+                  type="password"
+                  placeholder="비밀번호를 입력해주세요"
+                  name="password"
+                  autocomplete="on"
+                />
+              </div>
+              <input
+                class="email_real_input"
+                type="password"
+                placeholder="비밀번호를 다시 한번 입력해주세요"
+                name="passwordCheck"
+                autocomplete="on"
+              />
+              <p class="password_warning">
+                영문 대소문자, 숫자, 특수문자를 3가지 이상으로 조합해 8자 이상
+                16자 이하로 입력해주세요.
+              </p>
+            </div>
             <div></div>
             <div></div>
           </form>
